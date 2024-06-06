@@ -1,18 +1,8 @@
-# VI_Project
-
-- Team Members: Maillefer Dalia, Vervelle Killian
-- Target Audience: General Public
-- Intent/Objectives: This project aims to provide insights and analysis to support the argument that improving food distribution can address the global food crisis more effectively than merely increasing food production.
-- Data Source: https://www.fao.org/gift-individual-food-consumption/data/en
-
-
-## Architecture, Frameworks and Technologies
+### Project description
 
 This project comprises a backend and a frontend, constituting our website. In the backend, FastAPI serves as the framework, tasked with retrieving data from CSV files and transmitting it to the frontend in JSON format. On the frontend side, we've developed a website using React and JavaScript. Leveraging the D3.js library, we've enhanced the user experience with dynamic data displays. Additionally, data preparation and cleaning were facilitated using Python Notebook, ensuring that our data is ready for consumption.
 
-## Documentation
-
-### Choice of data
+### Data source
 
 The data utilized in this project has been sourced from the Food and Agriculture Organization of the United Nations (FAO). The comprehensive dataset includes diverse information, encompassing:
 
@@ -34,7 +24,7 @@ Our objective is to convey to the broader public that the worldwide food crisis 
 
 This message is tailored for a diverse audience, including but not limited to policymakers, researchers, and individuals concerned about global food issues. By providing a nuanced understanding of the root causes and potential solutions, we strive to empower a wide range of stakeholders to contribute to a more balanced and sustainable global food system.
 
-### Representation, Presentation and interaction
+### Views
 
 #### General
 
@@ -102,13 +92,13 @@ Finally, in our last graph, we chose to show the top 5 of item with the highest 
 
 The user can also interact with the chart by clicking a radio button. We chose a radio button over a slider because we only have two years of data available (2014 and 2019) and it would be interesting to use a slider with more years.
 
-### Critique of tool(s) used
+#### Critique of tool(s) used
 
 Using the library D3.js for the first was a bit difficult, especially for our specific needs. For instance, when we wanted to display a label below the graph, either the text was cropped or invisible. We had to figure out how to make the text visible with margin, padding, resizing the graph, etc.
 
-## Installation
+### Installation
 
-### Run with Docker
+#### Run with Docker
 
 A `docker-compose.yaml` is located at the root of the repository. With the two commands below, you will be able to run our application and API :
 
@@ -119,7 +109,7 @@ docker compose up -d
 
 Then, head over to [http://localhost:3000](http://localhost:3000) and you will be able to navigate in our website.
 
-### Run without Docker
+#### Run without Docker
 
 If you wish to run without Docker, you can run the two applications but make sure you have the version 18 for Node and Python 3.9.
 
