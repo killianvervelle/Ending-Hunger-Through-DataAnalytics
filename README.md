@@ -1,4 +1,8 @@
-### Project description
+## Ending-Hunger-Through-DataAnalytics
+
+**Team Members :** Killian Vervelle, Dalia Maillefer
+
+### Project: Ending-Hunger-Through-DataAnalytics
 
 This project comprises a backend and a frontend, constituting our website. In the backend, FastAPI serves as the framework, tasked with retrieving data from CSV files and transmitting it to the frontend in JSON format. On the frontend side, we've developed a website using React and JavaScript. Leveraging the D3.js library, we've enhanced the user experience with dynamic data displays. Additionally, data preparation and cleaning were facilitated using Python Notebook, ensuring that our data is ready for consumption.
 
